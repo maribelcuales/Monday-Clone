@@ -1,14 +1,44 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .app {
-    display: flex;
+	display: flex;
 }
 
 
 /*----- Nav -----*/
+
+nav {
+	height: 100vh;
+	background-color: #2B2B3F;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav .logo-container, 
+nav .controls-container {
+	padding: 50px, 34px;
+	display: flex;
+	flex-direction: column;
+}
+
+.crm-logo {
+	width: 30px;
+	padding-top: 20px;
+}
+
+
+nav .icon {
+	color: rgb(255, 255, 255); 
+}
 
 
