@@ -1,4 +1,4 @@
-import logo from '../images/logo.png'; 
+import logo from '../images/crm-logo.png'; 
 import { useNavigate } from 'react-router-dom';
 
 const Nav = () => {
@@ -8,7 +8,7 @@ const Nav = () => {
 	return (
 		<nav>
 			<div className="logo=container">
-				<img src={logo} alt="logo" />
+				<img className="crm-logo" src={logo} alt="logo" />
 			</div>
 			<div className="conttrols-container">
 				<div className="icon" onClick={() => navigate('/ticket')}>Add</div>
