@@ -24,8 +24,7 @@ nav {
 	padding-right: 10px;
 }
 
-nav .logo-container, 
-nav .controls-container {
+nav .logo-container {
 	padding: 50px, 34px;
 	display: flex;
 	flex-direction: column;
@@ -36,9 +35,15 @@ nav .controls-container {
 	padding-top: 20px;
 }
 
-
-nav .icon {
+.icon {
 	color: rgb(255, 255, 255); 
+	display: flex;
+	flex-direction: column;
+	width: 30px;
+	padding: 10px;
+	cursor: pointer;
 }
 
-
+.home-icon {
+	padding-bottom: 10px;
+}
