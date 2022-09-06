@@ -15,7 +15,7 @@ body {
 nav {
 	height: 100vh;
 	background-color: #2B2B3F;
-	color: rgb(255, 255, 255);
+	color: #ffffff;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -36,7 +36,7 @@ nav .logo-container {
 }
 
 .icon {
-	color: rgb(255, 255, 255); 
+	color: #ffffff; 
 	display: flex;
 	flex-direction: column;
 	width: 30px;
@@ -47,3 +47,17 @@ nav .logo-container {
 .home-icon {
 	padding-bottom: 10px;
 }
+
+
+/*----- Dashboard -----*/
+
+.dashboard {
+	padding: 30px; 
+	width: 100%;
+}
+
+.dashboard .ticket-container {
+	height: 80vh;
+	overflow: scroll;
+}
+
