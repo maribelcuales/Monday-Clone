@@ -11,7 +11,7 @@ const TicketCard = () => {
     <div className="ticket-card">
       <Link>
         <div className='ticket-color'></div>
-        <h3>{title}</h3>
+        <h3>Ticket Card</h3>
         <AvatarDisplay />
         <StatusDisplay />
         <PriorityDisplay />
